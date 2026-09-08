@@ -1,0 +1,57 @@
+============================================================
+DATALENS - AUTOMATED CSV DATA QUALITY REPORT
+============================================================
+File: sample_data.csv
+Rows: 8
+Columns: 5
+Missing cells: 2
+Duplicate rows: 1
+Data Quality Score: 92.42/100
+
+------------------------------------------------------------
+MISSING VALUES
+------------------------------------------------------------
+age: 1 (12.5%)
+email: 1 (12.5%)
+
+------------------------------------------------------------
+OUTLIERS
+------------------------------------------------------------
+salary: 1
+
+------------------------------------------------------------
+COLUMN PROFILE
+------------------------------------------------------------
+
+Column: name
+  Type: str
+  Missing: 0
+  Unique values: 7
+
+Column: age
+  Type: float64
+  Missing: 1
+  Unique values: 6
+  Minimum: 25.0
+  Maximum: 31.0
+  Mean: 27.86
+
+Column: email
+  Type: str
+  Missing: 1
+  Unique values: 6
+
+Column: salary
+  Type: int64
+  Missing: 0
+  Unique values: 7
+  Minimum: 75000
+  Maximum: 900000
+  Mean: 181500.0
+
+Column: department
+  Type: str
+  Missing: 0
+  Unique values: 3
+
+============================================================
